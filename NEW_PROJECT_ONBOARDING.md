@@ -56,6 +56,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "new-project/**"
+      - ".github/**"
+      - "pom.xml"
   pull_request:
     paths:
       - "new-project/**"

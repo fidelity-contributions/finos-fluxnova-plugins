@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "fluxnova-backward-compatibility-plugin/**"
+      - ".github/**"
+      - "pom.xml"
   pull_request:
     paths:
       - "fluxnova-backward-compatibility-plugin/**"
